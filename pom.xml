@@ -354,7 +354,7 @@
 								to set the configuration `<injectAllReactorProjects>true</injectAllReactorProjects>`. -->
 							<value>${project.version}</value>
 							<!-- the expected value -->
-							<shouldMatchTo><![CDATA[^.*(?<!-SNAPSHOT)$]]></shouldMatchTo>
+							<shouldMatchTo><![CDATA[^.*(?!-SNAPSHOT)$]]></shouldMatchTo>
 						</validationProperty>
 						<!-- the next validationProperty you would like to validate -->
 					</validationProperties>
